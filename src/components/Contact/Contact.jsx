@@ -43,7 +43,7 @@ function Contact() {
         const gData = getData();
         console.log(gData);
 
-        const uid = gData.length + 101;
+        const uid = Math.floor(Math.random() * 100);
 
         const newInput = {...inputValue, id:uid }
         

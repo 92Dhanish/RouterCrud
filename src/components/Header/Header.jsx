@@ -8,7 +8,7 @@ import './Header.css'
 function Header() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar >
         <Container>
           <Navbar to="home">Navbar</Navbar>
           <Nav className="me-auto">
